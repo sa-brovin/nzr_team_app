@@ -17,14 +17,14 @@ public class SlackReporter {
     private static String projectName = "Team App AutoTest- ";
    
 
-    private static String detailedReportUrlAndroid = "https://s3-ap-southeast-2.amazonaws.com/nzr-team-app-test-results/Android/overview-features.html";
-    private static String detailedReportUrlIOS = " https://s3-ap-southeast-2.amazonaws.com/nzr-team-app-test-results/iOS/overview-features.html";		
-    //public static String slackToken = "xoxp-281862169361-282421499332-283488349863-838480cba4b0f1cf609b5f3898165ec1";
-    public static String slackToken = "xoxp-2155671618-207730894198-304722840039-a4021eb0420b513a915045c706ac45e7"; 
+    private static String detailedReportUrlAndroid = "";
+    private static String detailedReportUrlIOS = " ";		
+    //public static String slackToken = "";
+    public static String slackToken = ""; 
    // public static String channelName = "team-f";
     public static String channelName = "test1";
-    private static String passedThumbUrl = "https://s3.eu-central-1.amazonaws.com/test-stor/green.png";
-    private static String failedThumbUrl = "https://s3.eu-central-1.amazonaws.com/test-stor/red.png";
+    private static String passedThumbUrl = "";
+    private static String failedThumbUrl = "";
 
     private static SlackSession session;
     private static SlackChannel channel;
